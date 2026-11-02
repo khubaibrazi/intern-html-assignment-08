@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="An HTML and CSS learning hub covering foundations, semantic HTML, media, tables, forms, and responsive layouts.">
+    <title>HTML & CSS Lab | Responsive Course Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="#home" class="brand" aria-label="HTML and CSS Lab, home">
+                <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+                <span>HTML &amp; CSS Lab<small>Learn by building</small></span>
+            </a>
+            <nav class="site-nav" aria-label="Main navigation">
+                <a class="nav-link" href="#courses">Courses</a>
+                <a class="nav-link" href="#lessons">Lessons</a>
+                <a class="nav-link" href="#report">Table</a>
+                <a class="nav-link" href="#summary">Summary</a>
+                <a class="nav-link" href="#enroll">Registration</a>
+            </nav>
+            <a class="btn btn-sm" href="#enroll">Join course <span aria-hidden="true">↗</span></a>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="hero" id="home" aria-labelledby="hero-title">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <span class="eyebrow">Practical front-end learning</span>
+                    <h1 id="hero-title">Build web skills <span>step by step.</span></h1>
+                    <p>Explore HTML foundations, semantic structure, tables, forms, and modern responsive CSS in one
+                        practical learning hub based on the Day 1–2 assignments.</p>
+                    <div class="hero-actions">
+                        <a class="btn" href="#courses">Explore modules <span aria-hidden="true">→</span></a>
+                        <a class="btn btn-secondary" href="#lessons">View lessons</a>
+                    </div>
+                    <ul class="hero-highlights" aria-label="Course highlights">
+                        <li>Six focused modules</li>
+                        <li>Practical HTML examples</li>
+                        <li>Mobile-friendly layout</li>
+                    </ul>
+                </div>
+                <div class="hero-visual">
+                    <img class="hero-image" src="Snapchat-2108523577.jpg" alt="Khubaib Razi Image." width="1100"
+                        height="880">
+                    <div class="image-badge">
+                        <span class="badge-icon" aria-hidden="true">✓</span>
+                        <span><strong>Learn by doing</strong>Real page sections, forms and tables</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="courses" aria-labelledby="courses-title">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">Your learning path</span>
+                    <h2 id="courses-title">Explore the course modules</h2>
+                    <p>Each card links to a useful lesson below. Start with the structure and move toward forms and
+                        responsive page layouts.</p>
+                </div>
+                <div class="course-grid">
+                    <article class="course-card">
+                        <span class="course-icon" aria-hidden="true">&lt;&gt;</span><span class="course-meta">Day 01 ·
+                            Module 01</span>
+                        <h3>HTML Foundations</h3>
+                        <p>Document structure, headings, paragraphs, lists and the essential elements of a page.</p>
+                        <a class="card-link" href="#lesson-structure">Read lesson <span aria-hidden="true">→</span></a>
+                    </article>
+                    <article class="course-card">
+                        <span class="course-icon" aria-hidden="true">Aa</span><span class="course-meta">Day 01 · Module
+                            02</span>
+                        <h3>Semantic Content</h3>
+                        <p>Meaningful elements, text formatting and accessible content organization.</p>
+                        <a class="card-link" href="#lesson-text">Read lesson <span aria-hidden="true">→</span></a>
+                    </article>
+                    <article class="course-card">
+                        <span class="course-icon" aria-hidden="true">↗</span><span class="course-meta">Day 01 · Module
+                            03</span>
+                        <h3>Links &amp; Media</h3>
+                        <p>Navigate between pages and add useful images with descriptive alternative text.</p>
+                        <a class="card-link" href="#lesson-media">Read lesson <span aria-hidden="true">→</span></a>
+                    </article>
+                    <article class="course-card">
+                        <span class="course-icon" aria-hidden="true">▦</span><span class="course-meta">Day 02 · Module
+                            04</span>
+                        <h3>HTML Tables</h3>
+                        <p>Create readable records with captions, headers, bodies, footers and columns.</p>
+                        <a class="card-link" href="#lesson-tables">Read lesson <span aria-hidden="true">→</span></a>
+                    </article>
+                    <article class="course-card">
+                        <span class="course-icon" aria-hidden="true">☑</span><span class="course-meta">Day 02 · Module
+                            05</span>
+                        <h3>Better Forms</h3>
+                        <p>Use labels, fieldsets, radio controls, checkboxes and native validation.</p>
+                        <a class="card-link" href="#lesson-forms">Read lesson <span aria-hidden="true">→</span></a>
+                    </article>
+                    <article class="course-card">
+                        <span class="course-icon" aria-hidden="true">≡</span><span class="course-meta">Day 02 · Module
+                            06</span>
+                        <h3>Advanced Inputs</h3>
+                        <p>Practice selects, optgroups, datalists and date, time, number and range inputs.</p>
+                        <a class="card-link" href="#lesson-inputs">Read lesson <span aria-hidden="true">→</span></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section lesson-area" id="lessons" aria-labelledby="lessons-title">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">Study space</span>
+                    <h2 id="lessons-title">Your lesson workspace</h2>
+                    <p>The main lesson and sidebar form a two-column layout on desktop and stack neatly on smaller
+                        screens.</p>
+                </div>
+                <div class="lesson-layout">
+                    <article class="lesson-content" aria-label="HTML lesson notes">
+                        <header>
+                            <h3>Day 1–2: HTML essentials</h3>
+                            <p>Review the same concepts used in the personal profile and tables-and-forms practice
+                                assignments.</p>
+                        </header>
+
+                        <section class="lesson-block" id="lesson-structure">
+                            <h3>01. HTML document structure</h3>
+                            <p>An HTML page starts with a doctype and includes <code>html</code>, <code>head</code>, and
+                                <code>body</code>. Use headings in a sensible order and lists for grouped items.
+                            </p>
+                            <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;&lt;title&gt;My Page&lt;/title&gt;&lt;/head&gt;
+  &lt;body&gt;&lt;h1&gt;Welcome&lt;/h1&gt;&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+                        </section>
+
+                        <section class="lesson-block" id="lesson-text">
+                            <h3>02. Semantic text and content</h3>
+                            <p>Use <code>header</code>, <code>nav</code>, <code>main</code>, <code>section</code>,
+                                <code>article</code>, <code>aside</code> and <code>footer</code> to express meaning.
+                                <code>strong</code> indicates importance and <code>em</code> indicates emphasis.
+                            </p>
+                            <p class="lesson-tip"><strong>Tip:</strong> Choose HTML elements for meaning; use CSS for
+                                appearance.</p>
+                        </section>
+
+                        <section class="lesson-block" id="lesson-media">
+                            <h3>03. Links and accessible images</h3>
+                            <p>Use <code>a</code> for navigation and <code>img</code> for meaningful imagery. An image
+                                needs helpful <code>alt</code> text; its size is controlled responsively in CSS with
+                                <code>max-width</code>, <code>aspect-ratio</code> and <code>object-fit</code>.
+                            </p>
+                            <pre><code>&lt;a href="#courses"&gt;Explore courses&lt;/a&gt;
+&lt;img src="photo.jpg" alt="Student writing HTML"&gt;</code></pre>
+                        </section>
+
+                        <section class="lesson-block" id="lesson-tables">
+                            <h3>04. Tables and column groups</h3>
+                            <p>A data table uses <code>caption</code>, <code>thead</code>, <code>tbody</code>,
+                                <code>tfoot</code>, <code>tr</code>, <code>th</code>, and <code>td</code>.
+                                <code>colgroup</code> and <code>col</code> can define column styling. See the sample
+                                performance table below.
+                            </p>
+                            <a class="card-link" href="#report">Open student table <span aria-hidden="true">→</span></a>
+                        </section>
+
+                        <section class="lesson-block" id="lesson-forms">
+                            <h3>05. Better forms and fieldsets</h3>
+                            <p>A useful form connects each <code>label</code> to an input's <code>id</code>. Group
+                                related controls inside a <code>fieldset</code> with a <code>legend</code>. Use
+                                <code>required</code>, <code>min</code>, and <code>max</code> to let the browser
+                                validate entries.
+                            </p>
+                            <a class="card-link" href="#enroll">Try the form below <span aria-hidden="true">→</span></a>
+                        </section>
+
+                        <section class="lesson-block" id="lesson-inputs">
+                            <h3>06. Advanced HTML form controls</h3>
+                            <p>Practice <code>select</code> and <code>optgroup</code> to present fixed choices,
+                                <code>datalist</code> to suggest values, and inputs such as <code>date</code>,
+                                <code>time</code>, <code>month</code>, <code>week</code>, <code>color</code>,
+                                <code>range</code> and <code>file</code>.
+                            </p>
+                            <details>
+                                <summary>What's the difference between select and datalist?</summary>
+                                <p>A <code>select</code> lets users pick from available options. A <code>datalist</code>
+                                    suggests options for an input while still allowing custom text.</p>
+                            </details>
+                        </section>
+                    </article>
+
+                    <aside class="lesson-sidebar" aria-label="Lesson navigation and instructor">
+                        <h3>On this page</h3>
+                        <ul class="toc">
+                            <li><a href="#lesson-structure">01. Document structure</a></li>
+                            <li><a href="#lesson-text">02. Semantic content</a></li>
+                            <li><a href="#lesson-media">03. Links and images</a></li>
+                            <li><a href="#lesson-tables">04. Tables</a></li>
+                            <li><a href="#lesson-forms">05. Forms</a></li>
+                            <li><a href="#lesson-inputs">06. Advanced inputs</a></li>
+                        </ul>
+                        <div class="sidebar-box">
+                            <strong>Topic coverage in this page</strong>
+                            <p>All six lesson topics are included in this responsive course page.</p>
+                            <label class="sr-only" for="course-progress">Six out of six</label>
+                            <progress id="course-progress" value="6" max="6">6 of 6</progress>
+                        </div>
+                        <div style="margin-top: 1.4rem;">
+                            <h3>About the creator</h3>
+                            <p class="muted">Khubaib Razi is a Software Engineering graduate from Superior University,
+                                Lahore, practicing web development through a Bloomrix internship.</p>
+                            <a class="card-link" href="https://github.com/khubaibrazi" target="_blank"
+                                rel="noopener noreferrer">Visit GitHub <span aria-hidden="true">↗</span></a>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="report" aria-labelledby="report-title">
+            <div class="container">
+                <div class="section-heading"><span class="eyebrow">Day 02 practice</span>
+                    <h2 id="report-title">Student performance table</h2>
+                    <p>This sample table reuses the names, courses and marks from the uploaded Day 2 HTML assignment.
+                    </p>
+                </div>
+                <div class="table-panel">
+                    <h3>Performance report</h3>
+                    <p>On narrow screens, swipe sideways inside the table to see every column.</p>
+                    <div class="table-scroll" tabindex="0" role="region"
+                        aria-label="Student performance report, horizontally scrollable">
+                        <table>
+                            <caption>Student Performance Report</caption>
+                            <colgroup>
+                                <col class="col-name">
+                                <col class="col-course">
+                                <col class="col-marks">
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th scope="col">Student name</th>
+                                    <th scope="col">Course</th>
+                                    <th scope="col">Marks</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Khubaib</td>
+                                    <td>HTML</td>
+                                    <td>90</td>
+                                </tr>
+                                <tr>
+                                    <td>Ali</td>
+                                    <td>CSS</td>
+                                    <td>85</td>
+                                </tr>
+                                <tr>
+                                    <td>Ahmed</td>
+                                    <td>JavaScript</td>
+                                    <td>80</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th colspan="2" scope="row">Total marks</th>
+                                    <td>255</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="summary" aria-labelledby="summary-title" style="padding-top: 0;">
+            <div class="container">
+                <div class="section-heading"><span class="eyebrow">Course summary</span>
+                    <h2 id="summary-title">What you'll practice</h2>
+                    <p>A responsive card-based summary that adapts automatically to screen width.</p>
+                </div>
+                <div class="summary-grid">
+                    <article class="summary-card"><span class="step">Day 01 · Foundations</span>
+                        <h3>Page content</h3>
+                        <p>Headings, paragraphs, lists, links, images, semantic elements and a personal-profile layout.
+                        </p>
+                    </article>
+                    <article class="summary-card"><span class="step">Day 02 · Data &amp; forms</span>
+                        <h3>Structured input</h3>
+                        <p>Tables, fieldsets, labels, advanced inputs, select controls, textarea and HTML validation.
+                        </p>
+                    </article>
+                    <article class="summary-card"><span class="step">Final build · Responsive CSS</span>
+                        <h3>Modern layout</h3>
+                        <p>Flexbox navigation, CSS Grid cards, mobile-first breakpoints, transitions and keyboard focus
+                            states.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section enroll-section" id="enroll" aria-labelledby="enroll-title">
+            <div class="container">
+                <div class="section-heading"><span class="eyebrow">Interactive practice</span>
+                    <h2 id="enroll-title">Course registration form</h2>
+                    <p>Practice the Day 1–2 HTML form elements and built-in browser validation. This is a front-end
+                        demonstration, not a live enrollment system.</p>
+                </div>
+                <div class="form-panel">
+                    <form action="#enroll" method="get">
+                        <fieldset>
+                            <legend>Personal information</legend>
+                            <div class="form-grid">
+                                <div class="field"><label for="fullname">Full name *</label><input id="fullname"
+                                        name="fullname" type="text" autocomplete="name" placeholder="Your full name"
+                                        minlength="2" required></div>
+                                <div class="field"><label for="email">Email address *</label><input id="email"
+                                        name="email" type="email" autocomplete="email" placeholder="name@example.com"
+                                        required></div>
+                                <div class="field"><label for="phone">Phone number</label><input id="phone" name="phone"
+                                        type="tel" autocomplete="tel" placeholder="03001234567"></div>
+                                <div class="field"><label for="portfolio">Portfolio URL</label><input id="portfolio"
+                                        name="portfolio" type="url" placeholder="https://example.com"></div>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Course selection</legend>
+                            <div class="form-grid">
+                                <div class="field"><label for="course">Select a course *</label>
+                                    <select id="course" name="course" required>
+                                        <option value="" selected disabled>Choose a course</option>
+                                        <optgroup label="Frontend">
+                                            <option value="html">HTML</option>
+                                            <option value="css">CSS</option>
+                                            <option value="javascript">JavaScript</option>
+                                        </optgroup>
+                                        <optgroup label="Backend">
+                                            <option value="python">Python</option>
+                                            <option value="php">PHP</option>
+                                            <option value="nodejs">Node.js</option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+                                <div class="field"><label for="skills">Skills you want to improve</label><select
+                                        id="skills" name="skills" multiple size="3">
+                                        <option value="html">HTML</option>
+                                        <option value="css">CSS</option>
+                                        <option value="javascript">JavaScript</option>
+                                        <option value="python">Python</option>
+                                    </select><small>Use Ctrl (Windows) or Command (Mac) to select several.</small></div>
+                                <div class="field"><label for="experience">Years of experience</label><input
+                                        id="experience" name="experience" type="number" min="0" max="15" step="1"
+                                        value="0"></div>
+                                <div class="field"><label for="skilllevel">Current confidence (1–10)</label><input
+                                        id="skilllevel" name="skilllevel" type="range" min="1" max="10" step="1"
+                                        value="5"></div>
+                                <div class="field full"><label for="topic">Topic you want to study</label><input
+                                        id="topic" name="topic" type="search" list="topic-suggestions"
+                                        placeholder="Choose a suggestion or type your own"><datalist
+                                        id="topic-suggestions">
+                                        <option value="HTML tables">
+                                        <option value="HTML forms">
+                                        <option value="CSS Flexbox">
+                                        <option value="CSS Grid">
+                                    </datalist></div>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Schedule and preferences</legend>
+                            <div class="form-grid">
+                                <div class="field"><label for="start-date">Preferred start date</label><input
+                                        id="start-date" name="start-date" type="date"></div>
+                                <div class="field"><label for="preferred-time">Preferred time</label><input
+                                        id="preferred-time" name="preferred-time" type="time"></div>
+                                <div class="field"><label for="start-month">Starting month</label><input
+                                        id="start-month" name="start-month" type="month"></div>
+                                <div class="field"><label for="study-week">Preferred week</label><input id="study-week"
+                                        name="study-week" type="week"></div>
+                                <div class="field"><label for="theme-color">Favorite color</label><input
+                                        id="theme-color" name="theme-color" type="color" value="#6553e8"></div>
+                                <div class="field"><label for="practice-file">Practice file (demo)</label><input
+                                        id="practice-file" name="practice-file" type="file"
+                                        accept=".pdf,.doc,.docx,.jpg,.jpeg,.png"><small>File chooser only; this
+                                        front-end demo does not upload files.</small></div>
+                                <div class="field full"><span class="field-title" id="learning-style-title">Preferred
+                                        learning style</span>
+                                    <div class="choice-row" role="group" aria-labelledby="learning-style-title">
+                                        <label><input type="radio" name="learning-style" value="self-paced" checked>
+                                            Self-paced</label><label><input type="radio" name="learning-style"
+                                                value="guided"> Guided</label>
+                                    </div>
+                                </div>
+                                <div class="field full"><span class="field-title" id="interest-title">Your
+                                        interests</span>
+                                    <div class="choice-row" role="group" aria-labelledby="interest-title"><label><input
+                                                type="checkbox" name="interest" value="web"> Web
+                                            development</label><label><input type="checkbox" name="interest" value="ai">
+                                            Artificial intelligence</label><label><input type="checkbox" name="interest"
+                                                value="apps"> App development</label></div>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Additional information</legend>
+                            <div class="field"><label for="message">Message</label><textarea id="message" name="message"
+                                    rows="4" placeholder="Tell us what you'd like to learn"></textarea></div>
+                        </fieldset>
+                        <div class="form-actions">
+                            <button class="btn" type="submit">Submit</button>
+                            <button class="btn btn-secondary" type="reset">Reset form</button>
+                            <p class="form-note">* Required fields.</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h3>HTML &amp; CSS Lab</h3>
+                    <p>A practice learning website built from Day 1–2 HTML exercises and modern responsive CSS.</p>
+                </div>
+                <div>
+                    <h3>Learn</h3>
+                    <ul class="footer-links">
+                        <li><a href="#courses">All modules</a></li>
+                        <li><a href="#lessons">Lesson workspace</a></li>
+                        <li><a href="#summary">Course summary</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Practice</h3>
+                    <ul class="footer-links">
+                        <li><a href="#report">HTML tables</a></li>
+                        <li><a href="#enroll">Registration form</a></li>
+                        <li><a href="#lesson-inputs">Advanced inputs</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Creator</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://github.com/khubaibrazi" target="_blank"
+                                rel="noopener noreferrer">GitHub</a></li>
+                        <li><a href="https://khubaibrazi.github.io/" target="_blank"
+                                rel="noopener noreferrer">Portfolio</a></li>
+                        <li><a href="#home">Back to top ↑</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Created by Khubaib Razi · HTML &amp; CSS practice assignment</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
